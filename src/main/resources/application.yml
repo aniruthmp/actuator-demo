@@ -2,10 +2,12 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/db_2
     username: springuser
-    password: NewThePassword
+    password: OldPassword
   jpa:
     hibernate:
       ddl-auto: create
+
+welcom.message: "Hello AllState [Local] !"
 
 management:
   endpoints:
